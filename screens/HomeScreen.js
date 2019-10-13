@@ -40,7 +40,7 @@ export default function HomeScreen() {
           <View
             style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
           >
-            <MonoText>screens/HomeScreen.js</MonoText>
+            {/* <MonoText>screens/HomeScreen.js</MonoText> */}
           </View>
 
           <Text style={styles.getStartedText}>
@@ -65,9 +65,9 @@ export default function HomeScreen() {
         <View
           style={[styles.codeHighlightContainer, styles.navigationFilename]}
         >
-          <MonoText style={styles.codeHighlightText}>
+          {/* <MonoText style={styles.codeHighlightText}>
             navigation/MainTabNavigator.js
-          </MonoText>
+          </MonoText> */}
         </View>
       </View>
     </View>
